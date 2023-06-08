@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import Anime from './../../components/anime/Anime'
 import { animeList } from "../../helpers/animeList";
 
 const AnimeCatalogue = () => {
@@ -8,8 +8,8 @@ const AnimeCatalogue = () => {
                 <div className="container">
                     <h2 className="title-1">Anime Catalogue</h2>
                     <ul className="catalogue">
-                        {animeList.map(({ title, AnimeId, series, year, img }) => {
-                            return <Anime key={AnimeId} title={title} img={img} index={AnimeId}/>
+                        {animeList.map(({ title, img, series, year, animeId }) => {
+                            return <Anime key={animeId} title={title} img={img} index={animeId}/>
                         })}
                     </ul>
                 </div>
