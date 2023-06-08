@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: white;
+    width: 100vw;
+    min-height: 400px;
+}
+
+.header_wrapper { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px 20px 10px 20px;
+}
+
+.header-img {
+    height: 400px;
+    margin-right: 40px;
+}
+
+.header-top {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-logo {
+    height: 150px;
+    margin-left: 40px;
+
+}
