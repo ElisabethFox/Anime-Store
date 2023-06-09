@@ -1,8 +1,10 @@
 .nav {
     height: 50px;
     padding: 5px 15px 5px 10px;
-    background-color: #06042b;
+    background-color: #1A1615;
     color: white;
+    border-bottom: 1px;
+    border-color: white;
 }
 
 .nav-row {
@@ -29,6 +31,6 @@
     font-size: 16px;
 }
 
-li:hover {
+.nav-list__item:hover {
     opacity: 0.4;
 }
