@@ -1,0 +1,45 @@
+.anime-item {
+    text-decoration: none;
+    color: #fff;
+    width: 350px;
+    height: 350px;
+    background-color: rgba(36, 37, 41);
+    border-radius: 15px;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .anime-item:not(:last-child) {
+    margin-bottom: 30px;
+    margin-right: 50px;
+  }
+  
+  .anime-item__title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .anime-item__genre {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .anime-item__details {
+    padding: 10px 20px;
+  }
+  
+  .anime-item__description {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .anime-item__buy {
+    position: relative;
+    right: 0;
+    bottom: -12px;
+  }
+
+  .anime-item__img {
+    height: 250px;
+  }

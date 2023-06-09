@@ -1,4 +1,4 @@
-import Anime from './../../components/anime/Anime'
+import AnimeItem from '../../components/anime-item/AnimeItem'
 import { animeList } from "../../helpers/animeList";
 
 const AnimeCatalogue = () => {
@@ -8,8 +8,8 @@ const AnimeCatalogue = () => {
                 <div className="container">
                     <h2 className="title-1">Anime Catalogue</h2>
                     <ul className="catalogue">
-                        {animeList.map(({ title, img, series, year, animeId }) => {
-                            return <Anime key={animeId} title={title} img={img} index={animeId}/>
+                        {animeList.map((anime) => {
+                            return <AnimeItem key={anime.animeId} anime={anime} />
                         })}
                     </ul>
                 </div>
