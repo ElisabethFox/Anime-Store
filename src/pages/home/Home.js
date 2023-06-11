@@ -3,6 +3,7 @@ import AnimeItem from '../../components/anime-item/AnimeItem';
 
 import { animeList } from "../../helpers/animeList";
 import './style.css'
+import Tittle1 from "../../components/title-1/Title1";
 
 const Home = () => {
     return ( 
@@ -11,7 +12,7 @@ const Home = () => {
 
             <main className="section">
                 <div className="container">
-                    <h2 className="title-1">Catalogue</h2>
+                    <Tittle1 title="Catalogue"/>
                     <ul className="catalogue">
                         {animeList.map((anime) => {
                             return <AnimeItem key={anime.animeId} anime={anime} />

@@ -25,7 +25,7 @@
 }
 
 .product__img {
-    height: 100px;
+    height: 70px;
     border-radius: 5px;
 }
 
@@ -41,6 +41,7 @@
 
 .product__price {
     padding-right: 10px;
+    font-weight: bold;
 }
 
 .product__controls:hover {

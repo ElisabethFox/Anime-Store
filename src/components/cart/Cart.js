@@ -4,6 +4,7 @@ import CartHeader from "./cart-header/CartHeader";
 import CartItem from "./cart-item/CartItem";
 
 import { animeList } from '../../helpers/animeList';
+import Tittle1 from "../title-1/Title1";
 
 const Cart = () => {
     const [cart, setCart] = useState(animeList);
@@ -20,6 +21,7 @@ const Cart = () => {
 
     return (
                 <section className="cart">
+                    <Tittle1 title="Cart"/>
                     <CartHeader />
                     {products}
                     <CartFooter />
