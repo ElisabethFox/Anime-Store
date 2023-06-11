@@ -1,9 +1,7 @@
 import { NavLink } from "react-router-dom";
 import './style.css';
 
-import home from './icons/home.svg';
-import info from './icons/info.svg';
-import basket from './icons/basket.svg'
+import { IoHome, IoInformationCircle, IoCart } from 'react-icons/io5';
 
 const NavBar = () => {
     return ( 
@@ -18,21 +16,18 @@ const NavBar = () => {
                 <ul className="nav-list">
 
                     <li className="nav-list__item">
-                        <NavLink to="/" className={home}>
-                            <img src={home} />
-                        </NavLink>
+                            <IoHome size={23} className="home-block__icon"/>
+                            <p nav-list__item__desc>Home</p>
                     </li>
 
                     <li className="nav-list__item">
-                        <NavLink to="/" className={info}>
-                            <img src={info} />
-                        </NavLink>
+                            <IoInformationCircle size={23} className="info-block__icon"/>
+                            <p nav-list__item__desc>Info</p>
                     </li>
 
                     <li className="nav-list__item">
-                        <NavLink to="/" className={basket}>
-                            <img src={basket} />
-                        </NavLink>
+                            <IoCart size={23} className="home-block__icon"/>
+                            <p nav-list__item__desc>Cart</p>
                     </li>
  
                 </ul>

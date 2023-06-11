@@ -1,7 +1,7 @@
 import './style.css'
 const Info = () => {
     return ( 
-    <main className="section">
+    <main className="info-section">
         <div className="container">
                 <h1 className="title-1">Information</h1>
 

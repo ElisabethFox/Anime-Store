@@ -2,10 +2,10 @@
     display: flex;
 
     margin: 20px 20px;
-    color: #fff;
+    color: #F3F2E6;
     width: 350px;
     height: 270px;
-    background-color: #4A3F50;
+    background-color: #4E364B;
     border-radius: 10px;
     cursor: pointer;
   }
@@ -21,37 +21,44 @@
   flex-direction: column;
   justify-content: space-between;
 
+  width: 140px;
+
   margin: 10px 10px 10px 5px;
 }
 
 .anime-item__title {
+  font-family: 'Permanent Marker', cursive;
+
   margin-bottom: 10px;
-  color: #FAE8FE;
+  color: #FEE3E8;
   font-size: 22px;
   text-align: center;
 };
 
-.anime-item__description {
-  font-family: 'Nunito', sans-serif;
-  font-size: 10px;
-  color: yellowgreen;
-}
-
-.anime-item__buttons {
+.anime__info-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-button {
+.anime-item__buttons {
+  font-family: 'Permanent Marker', cursive;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.anime-item__btn {
   margin: 5px;
   padding: 10px;
   width: 100px;
   height: 40px;
   font-size: 16px;
   text-align: center;
-  background-color: #FAE8FE;
+  background-color: #FEE3E8;
   color: #272528;
   border-radius: 5px;
 }
@@ -61,6 +68,7 @@ button {
   transition: 0.7s;
 }
 
-button:hover{
-  opacity: 0.7;
+.anime-item__btn:hover{
+  opacity: 0.8;
+  background-color: #FEC6E0;
 }

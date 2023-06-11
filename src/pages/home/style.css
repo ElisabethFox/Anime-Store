@@ -1,17 +1,18 @@
 .container {
     display: flex;
     flex-direction: column;
-    
 }
 
 .title-1 {
+    font-family: 'Permanent Marker', cursive;
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
 
+    color: #F3F2E6;
 }
 
-ul {
+.catalogue {
     display: flex;
     flex-wrap: wrap;
 }
