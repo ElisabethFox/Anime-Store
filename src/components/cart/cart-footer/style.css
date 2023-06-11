@@ -1,0 +1,17 @@
+.cart-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    margin: 50px auto;
+    padding: 8px 30px;
+    
+    width: 70%;
+    height: 50px;
+    
+    font-family: 'Permanent Marker', cursive;
+    font-size: 22px;
+    color: #FEE3E8;
+    background-color: #4E364B;
+    border-radius: 5px;
+}

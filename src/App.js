@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import Info from './pages/info/Info';
 import Anime from './pages/anime/Anime';
 import Footer from './components/footer/Footer';
+import Cart from './components/cart/Cart';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
                 <Routes>
                     <Route path='/' element={<Home />} />
                     <Route path='/info' element={<Info />} />
+                    <Route path='/cart' element={<Cart />} />
                     <Route path='/anime/:id' element={<Anime />} /> 
                 </Routes>
             <Footer />

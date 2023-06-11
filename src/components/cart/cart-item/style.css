@@ -1,0 +1,49 @@
+.product {
+    display: flex;
+    justify-content: space-around;
+    
+    margin: 0 auto;
+    padding: 10px;
+        
+    width: 70%;
+
+    font-size: 20px;
+    border-bottom-style: dashed;
+    border-color: #FEE3E8;
+}
+
+.product__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 30%;
+}
+
+.product__title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.product__img {
+    height: 100px;
+    border-radius: 5px;
+}
+
+.product__options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 10%;
+
+    font-size: 20px;
+}
+
+.product__price {
+    padding-right: 10px;
+}
+
+.product__controls:hover {
+    opacity: 0.8;
+    color: #FEC6E0;
+}

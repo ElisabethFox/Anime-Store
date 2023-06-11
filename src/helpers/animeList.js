@@ -13,8 +13,10 @@ const animeList = [
         series: "372",
         year: "2004 - ...",
         price: "10$",
+        rating: "8.2",
+        genre: "action, adventure, fantasy",
         img: bleach,
-        imgBig: "",
+        trailer: "https://www.youtube.com/embed/53_QT4NSB48",
     },
     {
         title: "Naruto",
@@ -23,9 +25,10 @@ const animeList = [
         series: "720",
         year: "2002 - 2017",
         price: "12$",
+        rating: "8.4",
+        genre: "action, drama, comedy, adventure, thriller",
         img: naruto,
-        imgBig: "",
-
+        trailer: "https://www.youtube.com/embed/-G9BqkgZXRA",
     },
     {
         title: "Demon Slayer",
@@ -34,8 +37,10 @@ const animeList = [
         series: "53",
         year: "2019 - ...",
         price: "8$",
+        rating: "8.7",
+        genre: "action, drama, comedy, adventure",
         img: demon,
-        imgBig: "",
+        trailer: "https://www.youtube.com/embed/tWABM3f8loU",
     },
     {
         title: "Black Clover",
@@ -44,8 +49,10 @@ const animeList = [
         series: "170",
         year: "2017 - ...",
         price: "7$",
+        rating: "8.3",
+        genre: "action, drama, comedy, adventure, thriller, fantasy",
         img: clover,
-        imgBig: "",
+        trailer: "https://www.youtube.com/embed/paxRms04dD0",
     },
     {
         title: "Jujutsu Kaisen",
@@ -54,9 +61,10 @@ const animeList = [
         series: "33",
         year: "2020 - ...",
         price: "5$",
+        rating: "8.5",
+        genre: "action, horror, fantasy",
         img: magic,
-        imgBig: "",
-
+        trailer: "https://www.youtube.com/embed/FowsQ1rFhUk",
     },
     {
         title: "One Piece",
@@ -65,8 +73,10 @@ const animeList = [
         series: "1063",
         year: "1999 - ...",
         price: "15$",
+        rating: "8.9",
+        genre: "action, adventure, fantasy",
         img: onepiece,
-        imgBig: "",
+        trailer: "https://www.youtube.com/embed/S8_YwFLCh4U",
     },
 ];
 

@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.anime__title {
+    margin: 15px;
+
+    font-family: 'Permanent Marker', cursive;
+    text-align: center;
+    color: #FEE3E8;
+    font-size: 40px;
+}
+
+.anime__details {
+    display: flex;
+    justify-content: center;
+}
+
+.anime__cover {
+    height: 80vh;
+    margin: 0 15px 15px;
+
+    border-radius: 10px;
+}
+
+.anime__details-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 680px;
+}
+
+.anime__desc {
+    margin: 0 15px;
+    text-align: justify;
+}
+
+.anime__genre {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #FEE3E8;
+    text-align: center;
+}
+
+.anime__details-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+
+    width: 300px;
+}
+
+.anime__trailer {
+    margin: 10px;
+    border-radius: 10px;
+
+    height: 40vh;
+    width: 40vw;
+}
+
+.anime__info {
+    margin: 10px 15px;
+}
+
