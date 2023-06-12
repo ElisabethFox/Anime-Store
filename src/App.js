@@ -5,7 +5,7 @@ import Home from './pages/home/Home';
 import Info from './pages/info/Info';
 import Anime from './pages/anime/Anime';
 import Footer from './components/footer/Footer';
-import Cart from './components/cart/Cart';
+import Cart from './pages/cart/Cart';
 
 
 function App() {

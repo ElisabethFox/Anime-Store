@@ -11,7 +11,7 @@ const Home = () => {
             <Header />
 
             <main className="section">
-                <div className="container">
+                <div className="home-container">
                     <Tittle1 title="Catalogue"/>
                     <ul className="catalogue">
                         {animeList.map((anime) => {

@@ -1,9 +1,11 @@
 import './style.css';
 
-const CartFooter = () => {
+const CartFooter = ({ total }) => {
+    const { price } = total;
+
     return ( 
     <div className="cart-footer">
-        <div className="cart-footer__price">329 000 $</div>
+        <div className="cart-footer__price">{price}$</div>
     </div>
      );
 }

@@ -1,4 +1,6 @@
-.container {
+.home-container {
+    margin-bottom: 60px;
+
     display: flex;
     flex-direction: column;
 }
@@ -6,4 +8,5 @@
 .catalogue {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }

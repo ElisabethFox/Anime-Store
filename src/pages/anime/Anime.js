@@ -10,7 +10,7 @@ const Anime = () => {
 
     return (
     <main className="anime-section">
-        <div className="container">
+        <div className="anime-container">
 
             <h1 className="anime__title">{title}</h1>
 
