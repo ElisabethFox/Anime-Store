@@ -16,7 +16,6 @@ const Cart = () => {
         setTotal({
             price: cart.reduce((prev, curr) => prev + Number(curr.price.slice(0, -1)), 0)
         })
-    
     }, [cart])
 
     const deleteProduct = (id) => {

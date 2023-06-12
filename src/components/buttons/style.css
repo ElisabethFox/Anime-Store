@@ -1,0 +1,23 @@
+.btn {
+    font-family: 'Permanent Marker', cursive;
+    
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #FEE3E8;
+    color: #272528;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    opacity: 0.8;
+    background-color: #FEC6E0;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}

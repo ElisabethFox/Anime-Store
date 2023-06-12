@@ -2,6 +2,8 @@ import { useParams } from 'react-router-dom';
 import { animeList } from "../../helpers/animeList";
 
 import './style.css';
+import BuyButton from '../../components/buttons/BuyButton';
+import Tittle1 from '../../components/title-1/Title1';
 
 const Anime = () => {
     const { id } = useParams();
@@ -12,7 +14,7 @@ const Anime = () => {
     <main className="anime-section">
         <div className="anime-container">
 
-            <h1 className="anime__title">{title}</h1>
+            <Tittle1 title={title}/>
 
             <div className="anime__details">
 
@@ -37,7 +39,7 @@ const Anime = () => {
                         </div>
 
                         <div className='anime-item__buttons'>
-                            <button className='anime-item__btn'>Buy</button>
+                            <BuyButton />
                         </div>
 
                     </div>

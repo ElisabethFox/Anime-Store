@@ -15,21 +15,30 @@ const NavBar = () => {
 
                 <ul className="nav-list">
 
-                    <li className="nav-list__item">
-                            <IoHome size={23} className="home-block__icon"/>
-                            <p nav-list__item__desc>Home</p>
-                    </li>
+                    <NavLink to="/" >
+                        <li className="nav-list__item">
+                                <IoHome size={23} className="home-block__icon"/>
+                                <p nav-list__item__desc>Home</p>
+                        </li>
+                    </NavLink>
 
-                    <li className="nav-list__item">
-                            <IoInformationCircle size={23} className="info-block__icon"/>
-                            <p nav-list__item__desc>Info</p>
-                    </li>
+                    <NavLink to="/info">
+                        <li className="nav-list__item">
+                                <IoInformationCircle size={23} className="info-block__icon"/>
+                                <p nav-list__item__desc>Info</p>
+                        </li>
+                    </NavLink>
 
-                    <li className="nav-list__item">
-                            <IoCart size={23} className="home-block__icon"/>
-                            <p nav-list__item__desc>Cart</p>
-                    </li>
- 
+                    <NavLink to="/cart">
+                        <li className="nav-list__item">
+                                <IoCart size={23} className="home-block__icon"/>
+                                <p nav-list__item__desc>Cart</p>
+                        </li>
+                    </NavLink>
+
+                        <li className="nav-list__total__price">
+                                <p>0$</p>
+                        </li>
                 </ul>
             </div>
         </div>

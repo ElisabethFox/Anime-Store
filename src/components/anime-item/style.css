@@ -14,6 +14,7 @@
     margin: 10px 5px 10px 10px;
     height: 250px;
     border-radius: 5px;
+    transition: 0.8s;
   }
 
 .anime-item__details {
@@ -51,24 +52,6 @@
   align-items: center;
 }
 
-.anime-item__btn {
-  margin: 5px;
-  padding: 10px;
-  width: 100px;
-  height: 40px;
-  font-size: 16px;
-  text-align: center;
-  background-color: #FEE3E8;
-  color: #272528;
-  border-radius: 5px;
-}
-
 .anime-item__img:hover{
   transform: scale(1.6);
-  transition: 0.7s;
-}
-
-.anime-item__btn:hover{
-  opacity: 0.8;
-  background-color: #FEC6E0;
 }

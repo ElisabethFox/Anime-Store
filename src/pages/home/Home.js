@@ -1,6 +1,7 @@
 import Header from "../../components/header/Header";
 import AnimeItem from '../../components/anime-item/AnimeItem';
 
+
 import { animeList } from "../../helpers/animeList";
 import './style.css'
 import Tittle1 from "../../components/title-1/Title1";
