@@ -3,7 +3,7 @@ import './style.css'
 const Info = () => {
     return ( 
     <main className="info-section">
-        <div className="info-container">
+        <div className="container">
                 <Tittle1 title="Info"/>
                 <ul className="content-list">
                     <li className="content-list__item">

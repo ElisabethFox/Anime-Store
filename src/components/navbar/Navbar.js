@@ -6,7 +6,7 @@ import { IoHome, IoInformationCircle, IoCart } from 'react-icons/io5';
 const NavBar = () => {
     return ( 
         <nav className="nav">
-        <div className="container">
+        <div className="nav__container">
             <div className="nav-row">
 
                 <NavLink to="/" className="logo">

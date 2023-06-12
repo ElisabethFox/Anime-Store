@@ -1,9 +1,7 @@
 import Header from "../../components/header/Header";
 import AnimeItem from '../../components/anime-item/AnimeItem';
 
-
 import { animeList } from "../../helpers/animeList";
-import './style.css'
 import Tittle1 from "../../components/title-1/Title1";
 
 const Home = () => {
@@ -12,7 +10,7 @@ const Home = () => {
             <Header />
 
             <main className="section">
-                <div className="home-container">
+                <div className="container">
                     <Tittle1 title="Catalogue"/>
                     <ul className="catalogue">
                         {animeList.map((anime) => {

@@ -12,7 +12,7 @@ const Anime = () => {
 
     return (
     <main className="anime-section">
-        <div className="anime-container">
+        <div className="container">
 
             <Tittle1 title={title}/>
 

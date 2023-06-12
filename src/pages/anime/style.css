@@ -1,18 +1,3 @@
-.anime-container {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60px;
-}
-
-.anime__title {
-    margin: 15px;
-
-    font-family: 'Permanent Marker', cursive;
-    text-align: center;
-    color: #FEE3E8;
-    font-size: 40px;
-}
-
 .anime__details {
     display: flex;
     justify-content: center;

@@ -9,7 +9,7 @@ const CartItem = ({ product, deleteProduct }) => {
     <section className="product">
 
         <div className="product__details">
-            <img className='product__img' src={img} />
+            <img className='product__img' src={img} alt={title} />
             <div className="product__title">{title}</div>
         </div>
 

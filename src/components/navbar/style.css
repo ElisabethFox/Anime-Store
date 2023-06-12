@@ -1,6 +1,13 @@
 .nav {
     height: 50px;
+    width: 100vw;
     background-color: #4E364B;
+}
+
+.nav__container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1200px;
 }
 
 .nav-row {
