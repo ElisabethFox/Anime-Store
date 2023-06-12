@@ -1,0 +1,8 @@
+.product__controls {
+    
+}
+
+.product__controls:hover {
+    opacity: 0.8;
+    color: #FEC6E0;
+}

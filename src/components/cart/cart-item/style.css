@@ -14,7 +14,7 @@
 
 .product__details {
     display: flex;
-    justify-content: space-between;
+    justify-content: baseline;
     align-items: center;
 
     width: 30%;
@@ -22,6 +22,7 @@
 
 .product__title {
     font-family: 'Permanent Marker', cursive;
+    margin-left: 20px;
 }
 
 .product__img {
@@ -42,9 +43,4 @@
 .product__price {
     padding-right: 10px;
     font-weight: bold;
-}
-
-.product__controls:hover {
-    opacity: 0.8;
-    color: #FEC6E0;
 }

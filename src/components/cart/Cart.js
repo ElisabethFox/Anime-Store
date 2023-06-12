@@ -9,15 +9,13 @@ import Tittle1 from "../title-1/Title1";
 const Cart = () => {
     const [cart, setCart] = useState(animeList);
 
-    const deleteProduct = () => {
-        
-    }
+    const deleteProduct = (id) => {
+        setCart((cart) => cart.filter((product) => id !== product.animeId));
+    };
 
     const products = cart.map((product) => {
-        return <CartItem product={product} key={product.id} />
+        return <CartItem product={product} key={product.animeId} deleteProduct={deleteProduct} />
     })
-
-
 
     return (
                 <section className="cart">
